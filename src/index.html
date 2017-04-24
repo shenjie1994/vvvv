@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="swiper.min.css">
+</head>
+<body>
+	<div id="head">
+		<div class="header">
+			<div class="per l">
+				北京
+			</div>
+			<div class="inp l ">
+				<input type="text" value="马尔代夫" class="text">
+				<input type="submit" value = "搜索">
+			</div>
+		</div>
+	</div>
+	<!-- 轮播图 -->
+	<div class="lb">
+		<div class="swiper-container">
+	        <div class="swiper-wrapper">
+	            <div class="swiper-slide">
+	            	<img src="考试素材h5/1.jpg">
+	            </div>
+	            <div class="swiper-slide">
+	            	<img src="考试素材h5/2.jpg">
+	            </div>
+	            <div class="swiper-slide">
+	            	<img src="考试素材h5/3.jpg">
+	            </div>
+	            <div class="swiper-slide">
+	            	<img src="考试素材h5/4.jpg">
+	            </div>
+	            <div class="swiper-slide">
+	            	<img src="考试素材h5/5.jpg">
+	            </div>
+	        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+	</div>
+
+	<!-- 分类区 -->
+
+	<div class="min">
+		<div class="min-z"></div>
+	</div>
+</body>
+	<script type="text/javascript" src = "swiper.min.js"></script>
+	 <script>
+	    var swiper = new Swiper('.swiper-container', {
+	        pagination: '.swiper-pagination',
+	        nextButton: '.swiper-button-next',
+	        prevButton: '.swiper-button-prev',
+	        paginationClickable: true,
+	        spaceBetween: 30,
+	        centeredSlides: true,
+	        autoplay: 2500,
+	        autoplayDisableOnInteraction: false
+	    });
+    </script>
+</html>
