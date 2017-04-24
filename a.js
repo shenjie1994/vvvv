@@ -1,1 +1,1 @@
-shenjie is a good man
+shenjie is a nice man
